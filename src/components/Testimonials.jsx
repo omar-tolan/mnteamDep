@@ -15,7 +15,7 @@ function Testimonials({ handleVid, isVidShown }) {
       thumbnail: "mohamed",
     },
     ahmed: {
-      name: "احمد عامر",
+      name: "احمد رضوان",
       plan: "ده احمد رضوان  ال cfo للبنك الاهلي بقاله معايا ٤ سنين و خسر حوالي ٣٠ كيلو دهون و اكتسب كتله عضليه محترمه",
       thumbnail: "ahmed",
     },
