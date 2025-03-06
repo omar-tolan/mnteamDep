@@ -9,7 +9,7 @@ function Plans({ handleSub }) {
       </p>
       <div className="flex flex-col space-y-6 px-[30px] md:px-0 pb-[50px] md:w-full md:flex-row md:flex-1 md:space-x-8 md:items-stretch md:justify-center">
         <PlanCard
-          duration="Turpo 90"
+          duration="Turbo 90"
           price="EGP2000"
           oldPrice="EGP3000"
           services={[

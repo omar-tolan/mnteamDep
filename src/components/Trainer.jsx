@@ -13,8 +13,8 @@ function Trainer() {
             width: "100%",
             height: "100%",
           }}
-        src="https://www.youtube.com/embed/xc4OtzAnVMI"
-        title="How To Train Like A Minimalist (More Gains In Less Time)" 
+        src="https://www.youtube.com/embed/op-1SuwBZIY"
+        title="Coach Mahmoud Nasr Intro" 
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerpolicy="strict-origin-when-cross-origin" 
