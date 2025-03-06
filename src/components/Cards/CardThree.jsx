@@ -2,7 +2,7 @@ import React from "react";
 
 function CardThree() {
   return (
-    <div className="bg-[#DB2E10] flex flex-col items-center space-y-10 py-[40px] px-[45px] mx-4 md:mx-1 rounded-3xl min-w-[90%] md:flex-1 md:min-w-0">
+    <div className="bg-[#DB2E10] flex flex-col items-center space-y-10 px-4 py-6 mx-4 md:mx-1 rounded-3xl min-w-[90%] md:flex-1 md:min-w-0">
       <div className="flex flex-col items-center w-full">
         <div className="bg-black py-8 flex justify-center rounded-3xl mb-4">
           <img className="w-[62%]" src="services/weight.svg" alt="exercise" />
