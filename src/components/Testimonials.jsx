@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import VideoModal from "./Modals/VideoModal";
 import ReviewCard from "./Cards/ReviewCard";
+import { video } from "motion/react-client";
 
 function Testimonials({ handleVid, isVidShown }) {
   const users = {
@@ -8,21 +9,25 @@ function Testimonials({ handleVid, isVidShown }) {
       name: "يوسف احمد",
       plan: "دكتور يوسف احمد طالب في طب بشري ١٨ سنه بيتمرن معايا بقاله ٤ سنين",
       thumbnail: "youssef",
+      video: "https://youtube.com/embed/kc6UZnLmprA"
     },
     mohamed: {
       name: "محمد هيبة",
       plan: "محمد هيبا ٢٢ سنه مهندس مدني بيتمرن معايا من ٥ سنين",
       thumbnail: "mohamed",
+      video: "https://youtube.com/embed/IyLBWyG5mmU"
     },
     ahmed: {
       name: "احمد رضوان",
       plan: "ده احمد رضوان  ال cfo للبنك الاهلي بقاله معايا ٤ سنين و خسر حوالي ٣٠ كيلو دهون و اكتسب كتله عضليه محترمه",
       thumbnail: "ahmed",
+      video: "https://youtube.com/embed/QiDaZGoi_Zg"
     },
     mahmoud: {
       name: "محمود رانى",
       plan: "ده محمود راني ١٥ سنه بيتمرن معايا و هو عنده ١٣ سنه عمل تحول رهييب",
       thumbnail: "mahmoud",
+      video: "https://youtube.com/embed/dR2_t79GWqw"
     },
   };
   const [selectedUser, setSelectedUser] = useState(null);

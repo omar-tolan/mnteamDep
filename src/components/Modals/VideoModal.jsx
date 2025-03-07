@@ -12,14 +12,27 @@ const VideoModal = ({ handleVid, user }) => {
         </div>
         <p className="text-2xl text-center">قصة {user.name}</p>
         <div className="w-full h-auto px-1 py-1 mt-6 ">
-          <video className="mx-auto" width="320" height="240" controls autoPlay={false} poster={`clients/${user.name.toLowerCase()}.svg`}>
-            <source src={`clients/vids/${user.thumbnail}.webm`} type="video/webm" />
-            <source src={`clients/vids/${user.thumbnail}.mp4`} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <iframe
+            style={{
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+            }}
+            src={user.video}
+            title="Coach Mahmoud Nasr Intro"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          />
         </div>
         <p className="text-xl mt-5">شوف نتايج {user.name}</p>
-        <img className="mt-4" src={`clients/transformation/${user.thumbnail}.svg`} alt="transformation-pic"></img>
+        <img
+          className="mt-4"
+          src={`clients/transformation/${user.thumbnail}.svg`}
+          alt="transformation-pic"
+        ></img>
       </div>
     </div>
   );
