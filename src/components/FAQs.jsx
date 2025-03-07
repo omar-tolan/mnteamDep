@@ -31,7 +31,7 @@ const FAQs = () => {
     setOpenIndex(openIndex === index ? null : index);
   };
   return (
-    <div className="flex flex-col items-center bg-black text-white mt-4 py-4 px-10 w-screen h-screen">
+    <div className="flex flex-col items-center bg-black text-white pt-4 pb-6 px-10 w-screen h-full">
       <p className="text-3xl mb-6">الأسئلة الشائعة</p>
       <div className="flex flex-col w-full space-y-4">
         {faqs.map((faq, index) => (
