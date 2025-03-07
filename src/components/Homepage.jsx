@@ -9,6 +9,7 @@ import Steps from "./Steps";
 import Footer from "./Footer";
 import { Element, Link } from "react-scroll";
 import SubscribtionModal from "./Modals/SubscriptionModal.jsx";
+// import FAQs from "./FAQs.jsx";
 
 function Homepage() {
   const [isSubscribing, setIsSubscribing] = useState(false);
@@ -35,8 +36,9 @@ function Homepage() {
         {isSubscribing && <SubscribtionModal handleSub={handleSub} />}
         <Plans handleSub={handleSub} />
       </Element>
-      <Element name="cv">
-      </Element>
+      {/* <Element name="faqs">
+        <FAQs />
+      </Element> */}
       <Footer />
     </div>
   );

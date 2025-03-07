@@ -9,7 +9,8 @@ function Plans({ handleSub }) {
       </p>
       <div className="flex flex-col space-y-6 px-[30px] md:px-0 pb-[50px] md:w-full md:flex-row md:flex-1 md:space-x-8 md:items-stretch md:justify-center">
         <PlanCard
-          duration="Turbo 90"
+          name="Turbo 90"
+          duration="٣ أشهر"
           price="EGP2000"
           oldPrice="EGP3000"
           services={[
@@ -19,13 +20,13 @@ function Plans({ handleSub }) {
             "تأهيل إصابات بعد العلاج الطبيعي",
             "البرنامج يشمل كل تمارين المرونة والاسترتشات",
             "ٕمكانية التدريب مع كابتن محمود في الجيم",
-            "متابعة البرنامج التدريبي والنظام الغذائي عبر تطبيق مخصص"
-
+            "متابعة البرنامج التدريبي والنظام الغذائي عبر تطبيق مخصص",
           ]}
           handleSub={handleSub}
         />
         <PlanCard
-          duration="Rebuild 180"
+          name="Rebuild 180"
+          duration="٦ أشهر"
           price="EGP3750"
           oldPrice="EGP5000"
           services={[
@@ -35,7 +36,7 @@ function Plans({ handleSub }) {
             "تأهيل إصابات بعد العلاج الطبيعي",
             "البرنامج يشمل كل تمارين المرونة والاسترتشات",
             "ٕمكانية التدريب مع كابتن محمود في الجيم",
-            "متابعة البرنامج التدريبي والنظام الغذائي عبر تطبيق مخصص"
+            "متابعة البرنامج التدريبي والنظام الغذائي عبر تطبيق مخصص",
           ]}
           handleSub={handleSub}
         />
