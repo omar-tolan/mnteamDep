@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import HomeCard from "./Cards/HomeCard";
 import Trainer from "./Trainer";
+import TrainerInfo from "./TrainerInfo";
 import Testimonials from "./Testimonials";
 import Services from "./Services";
 import Plans from "./Plans";
@@ -28,6 +29,7 @@ function Homepage() {
         <HomeCard />
       </div>
       <Trainer />
+      <TrainerInfo />
       <Testimonials handleVid={handleVid} isVidShown={isVidShown} />
       <Element name="services">
         <Services />
