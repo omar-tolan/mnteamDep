@@ -29,7 +29,7 @@ function TrainerInfo() {
 
         <div className="flex flex-col space-y-4 md:w-1/2 text-right">
           <motion.p 
-            className="text-right text-2xl"
+            className="text-right text-sm md:text-2xl font-light"
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
